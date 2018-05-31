@@ -10,7 +10,7 @@ while (i) {
   i--;
 }
 
- var kvest = Math.pow(multiplier, 3);
+ var kvest =multiplier ** 3
  kvest = String(kvest);
 
 alert(kvest[0] + kvest[1]);
